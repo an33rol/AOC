@@ -7,7 +7,7 @@ def findNext (array):
       a.append(array[k+1]-array[k])
    return findNext(a) + array[-1]
 
-lines =  open("input9.txt","r").readlines()
+lines =  open("day9/input9.txt","r").readlines()
 
 n = 0
 for line in lines:

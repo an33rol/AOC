@@ -1,6 +1,6 @@
 
 import sys
-lines = open("input8.txt","r").readlines()
+lines = open("day8/input8.txt","r").readlines()
 inst = lines[0].replace("\n","")
 dict = {}
 start = []

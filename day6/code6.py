@@ -1,4 +1,4 @@
-file = open("input6.txt","r")
+file = open("day6/input6.txt","r")
 times = list(map(int,file.readline()[5::].split()))
 dis = list(map(int,file.readline()[9::].split()))
 rez = 1

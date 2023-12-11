@@ -3,7 +3,7 @@ g = 13
 b = 14
 n = 0
 
-file = open("input2.txt","r")
+file = open("day2/input2.txt","r")
 lines = file.readlines()
 for i in range (len(lines)):
    games = lines[i].partition(":")[2].split(";")

@@ -4,7 +4,7 @@ line=""
 a = ""
 nums = ["one", "two", "three", "four","five","six","seven","eight","nine"]   
 
-file = open("input1.txt","r")
+file = open("day1/input1.txt","r")
 lines = file.readlines()
 for i in range (len(lines)):
    print(lines[i])

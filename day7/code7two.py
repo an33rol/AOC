@@ -1,4 +1,4 @@
-input = list(map(lambda a : a.split(), open("input7.txt","r").readlines()))
+input = list(map(lambda a : a.split(), open("day7/input7.txt","r").readlines()))
 values= {"A" : 12, "K" : 11, "Q" : 10, "J" : 0, "T" : 9}
 final = []
 

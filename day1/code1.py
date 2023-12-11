@@ -3,7 +3,7 @@ rez = 0
 line=""
 a = ""
 
-file = open("input1.txt","r")
+file = open("day1/input1.txt","r")
 lines = file.readlines()
 for i in range (len(lines)):
    print(lines[i])

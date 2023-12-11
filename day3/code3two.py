@@ -10,7 +10,7 @@ def addGear(index,val):
       gears[index]=[1,val]
 
    
-file = open("input3.txt","r")
+file = open("day3/input3.txt","r")
 lines = file.readlines()
 
 for i in range (len(lines)):

@@ -1,5 +1,5 @@
 rez = 0
-file = open("input4.txt","r")
+file = open("day4/input4.txt","r")
 lines = file.readlines()
 for i in range (len(lines)):
    mul = 0

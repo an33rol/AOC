@@ -2,7 +2,7 @@ b = {}
 dot = "."
 n = 0
 
-file = open("input3.txt","r")
+file = open("day3/input3.txt","r")
 lines = file.readlines()
 
 for i in range (len(lines)):

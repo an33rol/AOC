@@ -2,7 +2,7 @@
 # tako da sada mogu bolje opisati svoje osjecaje. zelim zahvaliti akademiji-
 
 import sys
-file = open("input5.txt","r")
+file = open("day5/input5.txt","r")
 lines = file.readlines()
 maxnum= sys.maxsize
 

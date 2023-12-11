@@ -5,7 +5,7 @@ def zerolistmaker(n):
 
 rez = 0
 
-file = open("input4.txt","r")
+file = open("day4/input4.txt","r")
 lines = file.readlines()
 
 cards=zerolistmaker(len(lines))

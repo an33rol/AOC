@@ -1,5 +1,5 @@
 import sys
-file = open("input5.txt","r")
+file = open("day5/input5.txt","r")
 lines = file.readlines()
 minseed= sys.maxsize
 

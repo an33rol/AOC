@@ -7,7 +7,7 @@ def findPrev (array):
       a.append(array[k+1]-array[k])
    return - findPrev(a) + array[0]
 
-lines =  open("input9.txt","r").readlines()
+lines =  open("day9/input9.txt","r").readlines()
 
 n = 0
 for line in lines:

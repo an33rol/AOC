@@ -5,7 +5,7 @@
 import sys
 sys.setrecursionlimit(100000) #lol
 
-lines =  open("input10.txt","r").readlines()
+lines =  open("day10/input10.txt","r").readlines()
 max_i = len(lines)
 max_j = len(lines[0])
 
