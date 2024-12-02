@@ -1,5 +1,5 @@
-let file = "2024/01/01.txt";
-
+const path = require("path");
+const file = path.join(__dirname, "/01.txt");
 const fs = require("node:fs");
 
 try {
@@ -16,12 +16,8 @@ try {
 	console.log(
 		a
 			.sort()
-			.map(function (item) {
-				return item * b.filter((value) => item == value).length;
-			})
-			.reduce(function (a, b) {
-				return a + b;
-			})
+			.map((item) => item * b.filter((value) => item == value).length)
+			.reduce((a, b) => a + b)
 	);
 } catch (err) {
 	console.error(err);
