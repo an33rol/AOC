@@ -1,5 +1,5 @@
-let file = "02.txt";
-
+const path = require("path");
+const file = path.join(__dirname, "/02.txt");
 const fs = require("node:fs");
 
 function processLine(line) {

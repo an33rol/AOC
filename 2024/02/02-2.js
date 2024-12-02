@@ -1,5 +1,5 @@
-let file = "02.txt";
-
+const path = require("path");
+const file = path.join(__dirname, "/02.txt");
 const fs = require("node:fs");
 
 function processLine(line, checkAgain) {
@@ -13,10 +13,9 @@ function processLine(line, checkAgain) {
 			(diff > 0 && !growing)
 		) {
 			if (checkAgain) {
-				// optimize ?
-				for (let j = 0; j < line.length; j++) {
+				for (k of [0, 1, i, i + 1]) {
 					let temp = Array.of(...line);
-					temp.splice(j, 1);
+					temp.splice(k, 1);
 
 					if (processLine(temp, false)) {
 						return true;
