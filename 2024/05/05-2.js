@@ -18,7 +18,7 @@ data.forEach((line, index) => {
 		if (order[key]) order[key] = [...order[key], value];
 		else order[key] = [value];
 	} else {
-		inputs.push(line.split(",").map((e) => e));
+		inputs.push(line.split(","));
 	}
 });
 
@@ -33,7 +33,7 @@ function checkOrder(inp) {
 			}
 		}
 		if (!good) return num;
-		current = [...current, inp[num]];
+		current.push(inp[num]);
 	}
 	return -1;
 }
