@@ -15,7 +15,7 @@ data.forEach((line, index) => {
 	if (!things) {
 		let key = line.split("|")[0];
 		let value = line.split("|")[1];
-		if (order[key]) order[key] = [...order[key], value];
+		if (order[key]) order[key].push(value);
 		else order[key] = [value];
 	} else {
 		inputs.push(line.split(","));
